@@ -1,0 +1,246 @@
+2020-12-29 04:47:31 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2020-12-29 04:47:31 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.45 ----------
+
+2020-12-29 04:47:31 INFO  ProjectStartupHandler.setAutoscrolls(346) - Autoscrolls successfully set
+2020-12-29 04:47:31 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(589) - The session is not set in the property file.
+2020-12-29 04:47:31 INFO  ApacheHttpClient.login(250) - Waiting for server response.
+2020-12-29 04:47:31 INFO  ApacheHttpClient.login(254) - responseCode = 200
+2020-12-29 04:47:31 INFO  ApacheHttpClient.login(277) - JSESSIONID OK
+2020-12-29 04:47:31 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2020-12-29 04:47:31 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2020-12-29 04:47:31 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2020-12-29 04:47:32 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2020-12-29 04:51:46 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2020-12-29 04:51:46 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2020-12-29 04:53:18 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2020-12-29 04:53:18 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.45 ----------
+
+2020-12-29 04:53:18 INFO  ProjectStartupHandler.setAutoscrolls(346) - Autoscrolls successfully set
+2020-12-29 04:53:18 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2020-12-29 04:53:18 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2020-12-29 04:53:18 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2020-12-29 04:53:18 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2020-12-29 04:53:18 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2020-12-29 04:53:54 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-29 04:53:55 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2020-12-29 04:57:53 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2020-12-29 04:58:41 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2020-12-29 04:58:41 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Geek Brains/javaRush/javaRush/JavaRushTasks/1.JavaSyntax/src/com
+2020-12-29 04:58:41 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Geek Brains/javaRush/javaRush/JavaRushTasks/1.JavaSyntax/src/com/javarush
+2020-12-29 04:58:41 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Geek Brains/javaRush/javaRush/JavaRushTasks/1.JavaSyntax/src/com/javarush/task
+2020-12-29 04:58:41 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Geek Brains/javaRush/javaRush/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/pro
+2020-12-29 04:58:41 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Geek Brains/javaRush/javaRush/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/pro/task11
+2020-12-29 04:58:41 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Geek Brains/javaRush/javaRush/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/pro/task11/task1119
+2020-12-29 04:59:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:00:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:00:36 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-29 05:00:36 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-29 05:00:39 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2020-12-29 05:00:39 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-29 05:01:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:02:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:03:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:04:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:05:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:06:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:07:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:08:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:09:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:10:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:11:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:12:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:13:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:14:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:15:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:16:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:17:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:17:24 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-29 05:17:24 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2020-12-29 05:17:29 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2020-12-29 05:17:29 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Geek Brains/javaRush/javaRush/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/pro/task11/task1120
+2020-12-29 05:18:04 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-29 05:18:04 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2020-12-29 05:18:04 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-29 05:18:15 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-29 05:18:15 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-29 05:18:16 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2020-12-29 05:18:16 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-29 05:18:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:18:40 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-29 05:18:40 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2020-12-29 05:18:43 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2020-12-29 05:18:43 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Geek Brains/javaRush/javaRush/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/pro/task11/task1121
+2020-12-29 05:19:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:19:32 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-29 05:19:32 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-29 05:19:32 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2020-12-29 05:19:32 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-29 05:19:37 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-29 05:19:37 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2020-12-29 05:19:40 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2020-12-29 05:19:40 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Geek Brains/javaRush/javaRush/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/pro/task11/task1123
+2020-12-29 05:20:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:21:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:22:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:23:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:24:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:25:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:26:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:27:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:28:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:29:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:30:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:31:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:32:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:33:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:34:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:35:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:36:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:37:06 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-29 05:37:07 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-29 05:37:07 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2020-12-29 05:37:08 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-29 05:37:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:37:19 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-29 05:37:19 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2020-12-29 05:37:26 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2020-12-29 05:37:26 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Geek Brains/javaRush/javaRush/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/pro/task11/task1125
+2020-12-29 05:38:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:39:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:39:43 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-29 05:39:43 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-29 05:39:47 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2020-12-29 05:39:47 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-29 05:39:50 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-29 05:39:50 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2020-12-29 05:39:53 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2020-12-29 05:39:53 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Geek Brains/javaRush/javaRush/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/pro/task11/task1127
+2020-12-29 05:40:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:40:22 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-29 05:40:23 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2020-12-29 05:40:26 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2020-12-29 05:41:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:42:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:43:07 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-29 05:43:07 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-29 05:43:08 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2020-12-29 05:43:08 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-29 05:43:14 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-29 05:43:14 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2020-12-29 05:43:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:43:26 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2020-12-29 05:43:26 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Geek Brains/javaRush/javaRush/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/pro/task12
+2020-12-29 05:43:26 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Geek Brains/javaRush/javaRush/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/pro/task12/task1202
+2020-12-29 05:44:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:45:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:46:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:47:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:47:48 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-29 05:47:48 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-29 05:47:49 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2020-12-29 05:47:49 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-29 05:47:52 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-29 05:47:52 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2020-12-29 05:48:00 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2020-12-29 05:48:00 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Geek Brains/javaRush/javaRush/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/pro/task12/task1203
+2020-12-29 05:48:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:49:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:49:19 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-29 05:49:19 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-29 05:49:20 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2020-12-29 05:49:20 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-29 05:49:22 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-29 05:49:22 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2020-12-29 05:49:31 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2020-12-29 05:49:31 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Geek Brains/javaRush/javaRush/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/pro/task12/task1204
+2020-12-29 05:50:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:51:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:52:14 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-29 05:52:15 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-29 05:52:16 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2020-12-29 05:52:16 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-29 05:52:18 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-29 05:52:18 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2020-12-29 05:52:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:52:31 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2020-12-29 05:52:31 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Geek Brains/javaRush/javaRush/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/pro/task12/task1205
+2020-12-29 05:53:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:54:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:55:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:56:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:57:18 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-29 05:57:18 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-29 05:57:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:57:19 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2020-12-29 05:57:19 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-29 05:57:49 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-29 05:57:49 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2020-12-29 05:57:51 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2020-12-29 05:57:51 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Geek Brains/javaRush/javaRush/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/pro/task12/task1206
+2020-12-29 05:58:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 05:59:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 06:00:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 06:00:26 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-29 06:00:26 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2020-12-29 06:00:53 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-29 06:00:53 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2020-12-29 06:01:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 06:02:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 06:03:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 06:04:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 06:05:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 06:06:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 06:07:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 06:08:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 06:09:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 06:10:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 06:11:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 06:12:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 06:13:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 06:14:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 06:14:31 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-29 06:14:31 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2020-12-29 06:14:31 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-29 06:14:53 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-29 06:14:53 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-29 06:14:54 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2020-12-29 06:15:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 06:16:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 06:16:51 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-29 06:16:51 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-29 06:16:51 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2020-12-29 06:16:51 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-29 06:16:55 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-29 06:16:55 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2020-12-29 06:16:59 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2020-12-29 06:16:59 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Geek Brains/javaRush/javaRush/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/pro/task12/task1207
+2020-12-29 06:17:02 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-29 06:17:02 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2020-12-29 06:17:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 06:18:13 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-29 06:18:13 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-29 06:18:14 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2020-12-29 06:18:14 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-29 06:18:16 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-29 06:18:16 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2020-12-29 06:18:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 06:18:20 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2020-12-29 06:18:20 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Geek Brains/javaRush/javaRush/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/pro/task12/task1208
+2020-12-29 06:19:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 06:20:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 06:20:45 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-29 06:20:45 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-29 06:20:46 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2020-12-29 06:20:46 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-29 06:20:51 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-29 06:20:51 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2020-12-29 06:21:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 06:22:14 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-29 06:22:14 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2020-12-29 06:22:17 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2020-12-29 06:22:17 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Geek Brains/javaRush/javaRush/JavaRushTasks/1.JavaSyntax/src/com/javarush/task/pro/task12/task1209
+2020-12-29 06:22:18 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-29 06:22:20 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2020-12-29 06:22:20 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-12-29 06:22:21 INFO  ApacheHttpClient.completed(32) - responseCode = 200
