@@ -21,10 +21,17 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        initEmployees();
+        initEmployees(); paySalary("Гвинно");
     }
 
     public static void paySalary(String name) {
+        if (name == null) return;
+        for(int i=0;i<waitingEmployees.size();i++){
+            if(waitingEmployees.get(i).equals(name)){
+                waitingEmployees.set(i,null);
+                alreadyGotSalaryEmployees.add(name);
+            }
+        }
         //напишите тут ваш код
     }
 }
