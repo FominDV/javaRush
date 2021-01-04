@@ -23,7 +23,7 @@ public class Solution {
                 System.out.println(in.readLine());
             }
         }
-        
+
         //напишите тут ваш код
     }
 }
