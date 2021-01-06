@@ -29,7 +29,6 @@ public class Solution {
     }
 
     public static Stream<Language> sortByRanking(ArrayList<Language> languages) {
-        //напишите тут ваш код
-        return Stream.empty();
+       return languages.stream().sorted((l1,l2)->Double.compare(l2.getRanking(),l1.getRanking()));
     }
 }
