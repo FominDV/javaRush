@@ -21,7 +21,7 @@ public class Solution {
     }
 
     public static class TestedThread extends Thread {
-        public TestedThread(UncaughtExceptionHandler handler) {
+        public TestedThread(Thread.UncaughtExceptionHandler handler) {
 
             start();
         }
