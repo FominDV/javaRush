@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
 Расширяем AmigoOutputStream
 */
 
-public class QuestionFileOutputStream implements AmigoOutputStream {
-
-}
+//public class QuestionFileOutputStream implements AmigoOutputStream {
+//
+//}
 
