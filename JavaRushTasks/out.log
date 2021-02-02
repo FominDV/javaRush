@@ -26539,3 +26539,1090 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 2021-02-01 01:24:58 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
 2021-02-01 01:25:58 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
 2021-02-01 01:26:58 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:14:12 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2021-02-01 21:14:13 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.46 ----------
+
+2021-02-01 21:14:13 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2021-02-01 21:14:13 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2021-02-01 21:14:13 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2021-02-01 21:14:13 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2021-02-01 21:14:13 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2021-02-01 21:14:34 INFO  AnalyticsService.run(84) - Error while sending analyticsMessage to log-stash
+org.apache.http.conn.HttpHostConnectException: Connect to test.javarush.ru:443 [test.javarush.ru/18.197.44.80] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:77)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2021-02-01 21:15:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:15:16 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-02-01 21:15:16 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-02-01 21:15:19 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-02-01 21:15:19 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Geek_Brains/javaRush/javaRush/JavaRushTasks/2.JavaCore/src/com/javarush/task/task19/task1911
+2021-02-01 21:15:41 INFO  AnalyticsService.run(84) - Error while sending analyticsMessage to log-stash
+org.apache.http.conn.HttpHostConnectException: Connect to test.javarush.ru:443 [test.javarush.ru/18.197.44.80] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:77)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2021-02-01 21:16:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:17:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:18:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:19:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:20:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:21:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:22:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:22:24 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-02-01 21:22:25 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-02-01 21:22:29 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-02-01 21:22:29 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-02-01 21:22:31 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-02-01 21:22:31 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-02-01 21:22:33 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-02-01 21:22:33 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Geek_Brains/javaRush/javaRush/JavaRushTasks/2.JavaCore/src/com/javarush/task/task19/task1912
+2021-02-01 21:22:50 INFO  AnalyticsService.run(84) - Error while sending analyticsMessage to log-stash
+org.apache.http.conn.HttpHostConnectException: Connect to test.javarush.ru:443 [test.javarush.ru/18.197.44.80] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:77)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:374)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2021-02-01 21:22:54 INFO  AnalyticsService.run(84) - Error while sending analyticsMessage to log-stash
+org.apache.http.conn.HttpHostConnectException: Connect to test.javarush.ru:443 [test.javarush.ru/18.197.44.80] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:77)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:374)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2021-02-01 21:23:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:24:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:25:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:25:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:25:23 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-02-01 21:25:23 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-02-01 21:25:27 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-02-01 21:25:27 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-02-01 21:25:29 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-02-01 21:25:29 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-02-01 21:25:30 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-02-01 21:25:30 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Geek_Brains/javaRush/javaRush/JavaRushTasks/2.JavaCore/src/com/javarush/task/task19/task1913
+2021-02-01 21:25:30 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-02-01 21:25:48 INFO  AnalyticsService.run(84) - Error while sending analyticsMessage to log-stash
+org.apache.http.conn.HttpHostConnectException: Connect to test.javarush.ru:443 [test.javarush.ru/18.197.44.80] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:77)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:374)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2021-02-01 21:25:51 INFO  AnalyticsService.run(84) - Error while sending analyticsMessage to log-stash
+org.apache.http.conn.HttpHostConnectException: Connect to test.javarush.ru:443 [test.javarush.ru/18.197.44.80] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:77)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:374)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2021-02-01 21:26:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:27:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:28:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:29:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:30:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:31:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:32:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:33:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:34:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:35:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:36:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:37:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:38:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:39:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:40:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:41:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:42:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:43:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:44:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:45:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:46:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:47:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:48:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:49:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:50:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:51:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:52:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:53:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:54:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:55:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:56:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:57:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:58:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 21:59:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:00:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:01:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:01:26 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-02-01 22:01:27 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-02-01 22:01:36 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-02-01 22:01:36 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-02-01 22:01:38 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-02-01 22:01:38 WARN  PluginUtil.getCurrentTask(78) - Error while retrieving the task key.
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.base/java.lang.String.substring(String.java:1837)
+	at com.homework.plugin.PluginUtil.getCurrentVirtualFile(PluginUtil.java:158)
+	at com.homework.plugin.PluginUtil.getCurrentTask(PluginUtil.java:69)
+	at com.homework.plugin.button.CorrectSolutionButton.actionPerformed(CorrectSolutionButton.java:59)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAware(ActionUtil.java:281)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.actionPerformed(ActionButton.java:209)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.performAction(ActionButton.java:177)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.performAction(ActionButton.java:160)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.processMouseEvent(ActionButton.java:477)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6417)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5027)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4859)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4859)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:778)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:751)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:749)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:748)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:976)
+	at com.intellij.ide.IdeEventQueue.dispatchMouseEvent(IdeEventQueue.java:911)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:840)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:454)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:773)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$9(IdeEventQueue.java:453)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:822)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:507)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2021-02-01 22:01:53 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-02-01 22:01:53 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-02-01 22:01:55 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-02-01 22:01:55 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Geek_Brains/javaRush/javaRush/JavaRushTasks/2.JavaCore/src/com/javarush/task/task19/task1914
+2021-02-01 22:01:55 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-02-01 22:01:57 INFO  AnalyticsService.run(84) - Error while sending analyticsMessage to log-stash
+org.apache.http.conn.HttpHostConnectException: Connect to test.javarush.ru:443 [test.javarush.ru/18.197.44.80] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:77)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:374)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2021-02-01 22:01:59 INFO  AnalyticsService.run(84) - Error while sending analyticsMessage to log-stash
+org.apache.http.conn.HttpHostConnectException: Connect to test.javarush.ru:443 [test.javarush.ru/18.197.44.80] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:77)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:374)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2021-02-01 22:02:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:02:19 INFO  AnalyticsService.run(84) - Error while sending analyticsMessage to log-stash
+org.apache.http.conn.HttpHostConnectException: Connect to test.javarush.ru:443 [test.javarush.ru/18.197.44.80] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:77)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:374)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2021-02-01 22:02:20 INFO  AnalyticsService.run(84) - Error while sending analyticsMessage to log-stash
+org.apache.http.conn.HttpHostConnectException: Connect to test.javarush.ru:443 [test.javarush.ru/18.197.44.80] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:77)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:374)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2021-02-01 22:03:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:04:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:04:24 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-02-01 22:05:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:05:27 INFO  AnalyticsService.run(84) - Error while sending analyticsMessage to log-stash
+org.apache.http.conn.HttpHostConnectException: Connect to test.javarush.ru:443 [test.javarush.ru/18.197.44.80] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:77)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:374)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2021-02-01 22:06:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:07:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:08:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:09:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:10:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:11:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:11:56 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-02-01 22:12:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:12:31 INFO  AnalyticsService.run(84) - Error while sending analyticsMessage to log-stash
+org.apache.http.conn.HttpHostConnectException: Connect to test.javarush.ru:443 [test.javarush.ru/18.197.44.80] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:77)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2021-02-01 22:13:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:14:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:14:39 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-02-01 22:14:39 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-02-01 22:14:42 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-02-01 22:15:04 INFO  AnalyticsService.run(84) - Error while sending analyticsMessage to log-stash
+org.apache.http.conn.HttpHostConnectException: Connect to test.javarush.ru:443 [test.javarush.ru/18.197.44.80] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:77)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:374)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2021-02-01 22:15:07 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-02-01 22:15:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:15:35 INFO  AnalyticsService.run(84) - Error while sending analyticsMessage to log-stash
+org.apache.http.conn.HttpHostConnectException: Connect to test.javarush.ru:443 [test.javarush.ru/18.197.44.80] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:77)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:374)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2021-02-01 22:16:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:17:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:18:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:19:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:20:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:21:05 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-02-01 22:21:05 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-02-01 22:21:05 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-02-01 22:21:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:21:19 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-02-01 22:21:19 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-02-01 22:21:19 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-02-01 22:21:27 INFO  AnalyticsService.run(84) - Error while sending analyticsMessage to log-stash
+org.apache.http.conn.HttpHostConnectException: Connect to test.javarush.ru:443 [test.javarush.ru/18.197.44.80] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:77)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:374)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2021-02-01 22:21:41 INFO  AnalyticsService.run(84) - Error while sending analyticsMessage to log-stash
+org.apache.http.conn.HttpHostConnectException: Connect to test.javarush.ru:443 [test.javarush.ru/18.197.44.80] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:77)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:374)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2021-02-01 22:22:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:22:33 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-02-01 22:22:33 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-02-01 22:22:38 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-02-01 22:22:47 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-02-01 22:22:47 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-02-01 22:22:50 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-02-01 22:22:50 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-02-01 22:22:54 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-02-01 22:22:54 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-02-01 22:22:55 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-02-01 22:22:55 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-02-01 22:22:58 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-02-01 22:22:58 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Geek_Brains/javaRush/javaRush/JavaRushTasks/2.JavaCore/src/com/javarush/task/task19/task1915
+2021-02-01 22:22:59 INFO  AnalyticsService.run(84) - Error while sending analyticsMessage to log-stash
+org.apache.http.conn.HttpHostConnectException: Connect to test.javarush.ru:443 [test.javarush.ru/18.197.44.80] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:77)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:374)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2021-02-01 22:23:10 INFO  AnalyticsService.run(84) - Error while sending analyticsMessage to log-stash
+org.apache.http.conn.HttpHostConnectException: Connect to test.javarush.ru:443 [test.javarush.ru/18.197.44.80] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:77)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:374)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2021-02-01 22:23:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:23:20 INFO  AnalyticsService.run(84) - Error while sending analyticsMessage to log-stash
+org.apache.http.conn.HttpHostConnectException: Connect to test.javarush.ru:443 [test.javarush.ru/18.197.44.80] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:77)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:374)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2021-02-01 22:23:31 INFO  AnalyticsService.run(84) - Error while sending analyticsMessage to log-stash
+org.apache.http.conn.HttpHostConnectException: Connect to test.javarush.ru:443 [test.javarush.ru/18.197.44.80] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:77)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2021-02-01 22:24:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:25:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:26:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:27:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:28:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:29:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:30:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:31:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:32:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:33:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:34:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:35:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:36:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:37:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:38:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:39:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:40:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:41:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:42:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:43:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:44:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:45:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:46:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:47:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:48:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:49:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:50:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:51:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:52:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:53:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:54:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:55:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:56:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:57:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:58:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 22:59:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:00:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:01:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:02:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:03:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:04:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:05:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:06:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:07:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:08:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:09:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:10:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:11:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:12:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:13:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:14:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:15:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:16:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:17:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:18:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:19:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:20:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:21:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:22:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:23:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:24:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:25:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:26:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:27:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:28:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:29:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:30:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:31:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:32:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:33:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:34:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:35:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:36:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:37:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:38:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:39:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:40:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:41:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:42:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:43:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:44:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:45:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:46:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:47:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:48:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:49:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:50:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:51:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:52:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:53:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:54:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:55:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:56:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:57:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:58:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-01 23:59:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:00:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:01:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:02:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:03:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:04:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:05:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:06:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:07:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:08:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:09:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:10:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:11:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:12:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:13:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:14:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:15:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:16:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:17:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:18:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:19:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:20:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:21:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:22:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:23:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:24:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:25:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:26:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:27:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:28:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:29:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:30:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:31:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:32:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:33:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:34:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:35:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:36:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:37:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:38:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 00:39:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 06:52:40 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2021-02-02 06:52:40 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.46 ----------
+
+2021-02-02 06:52:40 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2021-02-02 06:52:40 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2021-02-02 06:52:40 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2021-02-02 06:52:41 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2021-02-02 06:52:41 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2021-02-02 06:53:02 INFO  AnalyticsService.run(84) - Error while sending analyticsMessage to log-stash
+org.apache.http.conn.HttpHostConnectException: Connect to test.javarush.ru:443 [test.javarush.ru/18.197.44.80] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:77)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2021-02-02 06:53:41 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 06:54:41 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 06:55:41 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 06:56:39 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 06:57:39 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 06:58:39 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 06:59:39 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 07:00:39 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 07:01:39 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 07:02:39 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 07:03:39 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 07:04:39 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 07:05:39 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 07:06:39 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 07:07:39 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 07:08:39 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 07:09:39 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 07:10:39 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 07:11:09 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-02-02 07:11:09 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-02-02 07:11:11 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-02-02 07:11:11 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-02-02 07:11:32 INFO  AnalyticsService.run(84) - Error while sending analyticsMessage to log-stash
+org.apache.http.conn.HttpHostConnectException: Connect to test.javarush.ru:443 [test.javarush.ru/18.197.44.80] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:77)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2021-02-02 07:11:39 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 07:12:39 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 07:13:39 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 07:14:39 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 07:15:39 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 07:16:39 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 07:16:40 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-02-02 07:16:41 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-02-02 07:16:46 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-02-02 07:17:07 INFO  AnalyticsService.run(84) - Error while sending analyticsMessage to log-stash
+org.apache.http.conn.HttpHostConnectException: Connect to test.javarush.ru:443 [test.javarush.ru/18.197.44.80] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:77)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:374)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2021-02-02 07:17:39 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 07:17:45 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-02-02 07:17:46 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-02-02 07:17:52 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-02-02 07:17:52 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-02-02 07:17:55 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-02-02 07:17:55 WARN  PluginUtil.getCurrentTask(78) - Error while retrieving the task key.
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.base/java.lang.String.substring(String.java:1837)
+	at com.homework.plugin.PluginUtil.getCurrentVirtualFile(PluginUtil.java:158)
+	at com.homework.plugin.PluginUtil.getCurrentTask(PluginUtil.java:69)
+	at com.homework.plugin.button.CorrectSolutionButton.actionPerformed(CorrectSolutionButton.java:59)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAware(ActionUtil.java:281)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.actionPerformed(ActionButton.java:209)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.performAction(ActionButton.java:177)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.performAction(ActionButton.java:160)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.processMouseEvent(ActionButton.java:477)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6417)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5027)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4859)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4859)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:778)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:751)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:749)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:748)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:976)
+	at com.intellij.ide.IdeEventQueue.dispatchMouseEvent(IdeEventQueue.java:911)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:840)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:454)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:773)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$9(IdeEventQueue.java:453)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:822)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:507)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2021-02-02 07:18:13 INFO  AnalyticsService.run(84) - Error while sending analyticsMessage to log-stash
+org.apache.http.conn.HttpHostConnectException: Connect to test.javarush.ru:443 [test.javarush.ru/18.197.44.80] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:77)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:374)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2021-02-02 07:18:16 INFO  AnalyticsService.run(84) - Error while sending analyticsMessage to log-stash
+org.apache.http.conn.HttpHostConnectException: Connect to test.javarush.ru:443 [test.javarush.ru/18.197.44.80] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:77)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:374)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2021-02-02 07:18:39 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-02 07:18:49 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-02-02 07:18:49 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
