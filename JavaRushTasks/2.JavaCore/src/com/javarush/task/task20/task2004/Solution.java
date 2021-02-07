@@ -49,9 +49,19 @@ public class Solution {
 
         public void save(OutputStream outputStream) throws Exception {
             //implement this method - реализуйте этот метод
+            PrintWriter writer=new PrintWriter(outputStream);
+            writer.println(staticString);
+            writer.println(i);
+            writer.println(j);
+            writer.close();
         }
 
         public void load(InputStream inputStream) throws Exception {
+            BufferedReader reader=new BufferedReader(new InputStreamReader(inputStream));
+            staticString=reader.readLine();
+            i=(Integer.parseInt(reader.readLine()));
+            j=(Integer.parseInt(reader.readLine()));
+            reader.close();
             //implement this method - реализуйте этот метод
         }
 

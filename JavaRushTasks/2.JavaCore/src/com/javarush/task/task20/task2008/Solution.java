@@ -54,5 +54,10 @@ public class Solution implements Serializable {
 
         private Singleton() {
         }
+
+
+        private Object readResolve() throws ObjectStreamException {
+            return getInstance();
+        }
     }
 }

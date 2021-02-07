@@ -11,5 +11,15 @@ import java.io.InputStreamReader;
 
 public class Solution {
     public static void main(String[] args) {
+        try (BufferedReader readerFromCons = new BufferedReader(new InputStreamReader(System.in));
+             BufferedReader reader = new BufferedReader(new FileReader(readerFromCons.readLine()))) {
+            StringBuilder line;
+            while ((line =new StringBuilder( reader.readLine())) != null) {
+               line.reverse();
+                System.out.println(line);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

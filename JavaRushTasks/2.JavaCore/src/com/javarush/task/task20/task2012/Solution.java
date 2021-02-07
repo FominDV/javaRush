@@ -19,7 +19,7 @@ public class Solution {
      *
      * @author JavaRush
      */
-    public static class OutputToConsole implements Serializable {
+    public static class OutputToConsole implements Externalizable {
         private int counter;
 
         /**

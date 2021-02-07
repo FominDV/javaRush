@@ -42,12 +42,12 @@ public class Solution {
 
         @Override
         public boolean equals(Object o) {
-            if (this == o) return false;
+            if (this == o) return true;
             if (o == null || getClass() != o.getClass()) return false;
 
             Human human = (Human) o;
 
-            if (name == null ? !name.equals(human.name) : human.name != null) return false;
+            if (name != null ? !name.equals(human.name) : human.name != null) return false;
             return assets != null ? assets.equals(human.assets) : human.assets == null;
 
         }
@@ -56,7 +56,7 @@ public class Solution {
         public int hashCode() {
             int result = name != null ? name.hashCode() : 0;
             result = 31 * result + (assets != null ? assets.hashCode() : 0);
-            return (int) (Math.random() * 100);
+            return result;
         }
 
         public Human() {
@@ -72,10 +72,13 @@ public class Solution {
         public void save(OutputStream outputStream) throws Exception {
             //implement this method - реализуйте этот метод
             PrintWriter printWriter = new PrintWriter(outputStream);
+            if(name!=null)
             printWriter.println(this.name);
             if (this.assets.size() > 0) {
-                for (Asset current : this.assets)
+                for (Asset current : this.assets) {
                     printWriter.println(current.getName());
+                    printWriter.println(current.getPrice());
+                }
             }
             printWriter.close();
         }
@@ -83,11 +86,14 @@ public class Solution {
         public void load(InputStream inputStream) throws Exception {
             //implement this method - реализуйте этот метод
             BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
-
+            if(reader.ready())
             this.name = reader.readLine();
             String assetName;
-            while ((assetName = reader.readLine()) != null)
-                this.assets.add(new Asset(assetName));
+            while ((assetName = reader.readLine()) != null) {
+                Asset asset=new Asset(assetName);
+                asset.setPrice(Double.parseDouble(reader.readLine()));
+                this.assets.add(asset);
+            }
             reader.close();
         }
     }

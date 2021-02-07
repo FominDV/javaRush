@@ -14,18 +14,27 @@ public class Solution {
         //you can find your_file_name.tmp in your TMP directory or adjust outputStream/inputStream according to your file's actual location
         //вы можете найти your_file_name.tmp в папке TMP или исправьте outputStream/inputStream в соответствии с путем к вашему реальному файлу
         try {
-            File yourFile = File.createTempFile("your_file_name", null);
+            File yourFile =new File("C:\\Geek_Brains\\javaRush\\javaRush\\JavaRushTasks\\2.JavaCore\\src\\com\\javarush\\task\\task20\\task2002\\1.txt");
             OutputStream outputStream = new FileOutputStream(yourFile);
             InputStream inputStream = new FileInputStream(yourFile);
 
             JavaRush javaRush = new JavaRush();
             //initialize users field for the javaRush object here - инициализируйте поле users для объекта javaRush тут
+
+            User user=new User();
+            user.setFirstName("Ivan");
+            user.setLastName("Petrov");
+            user.setBirthDate(new Date());
+            user.setMale(true);
+            user.setCountry(User.Country.RUSSIA);
+            //javaRush.users.add(user);
             javaRush.save(outputStream);
             outputStream.flush();
 
             JavaRush loadedObject = new JavaRush();
             loadedObject.load(inputStream);
             //here check that the javaRush object is equal to the loadedObject object - проверьте тут, что javaRush и loadedObject равны
+            System.out.println(javaRush.equals(loadedObject));
 
             outputStream.close();
             inputStream.close();
@@ -44,12 +53,56 @@ public class Solution {
 
         public void save(OutputStream outputStream) throws Exception {
             //implement this method - реализуйте этот метод
+            PrintWriter printWriter = new PrintWriter(outputStream);
+            if (this.users.size() > 0) {
+                for (User current : this.users) {
+                    StringBuilder sb = new StringBuilder();
+                    sb.append(current.getFirstName());
+                    sb.append("/");
+                    sb.append(current.getLastName());
+                    sb.append("/");
+                    sb.append(current.getBirthDate().getTime());
+                    sb.append("/");
+                    sb.append(current.isMale());
+                    sb.append("/");
+                    sb.append(current.getCountry());
+
+                    printWriter.println(sb.toString());
+                }
+            }
+            printWriter.close();
         }
 
         public void load(InputStream inputStream) throws Exception {
             //implement this method - реализуйте этот метод
-        }
+            BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
+            String line;
+            while ((line = reader.readLine()) != null) {
+                User user = new User();
+                String[] lineArray = line.split("/");
+                if (lineArray.length < 5) {
+                    break;
+                }
+                user.setFirstName(lineArray[0]);
+                user.setLastName(lineArray[1]);
+                user.setBirthDate(new Date(Long.parseLong(lineArray[2])));
+                user.setMale(Boolean.parseBoolean(lineArray[3]));
+                switch (lineArray[4]) {
+                    case "UKRAINE":
+                        user.setCountry(User.Country.UKRAINE);
+                        break;
+                    case "RUSSIA":
+                        user.setCountry(User.Country.RUSSIA);
+                        break;
+                    default:
+                        user.setCountry(User.Country.OTHER);
+                        break;
+                }
+                this.users.add(user);
+            }
 
+            reader.close();
+        }
         @Override
         public boolean equals(Object o) {
             if (this == o) return true;
