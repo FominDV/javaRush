@@ -4,6 +4,8 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
+import java.util.logging.Filter;
+import java.util.logging.Logger;
 
 /* 
 Переопределение сериализации
@@ -35,6 +37,7 @@ public class Solution implements Serializable, Runnable {
     }
 
     private void readObject(ObjectInputStream in) throws IOException, ClassNotFoundException {
+       
         in.defaultReadObject();
         runner=new Thread(this);
         runner.start();
