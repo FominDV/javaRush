@@ -11,10 +11,48 @@ import java.util.List;
 
 public class SearchFileVisitor extends SimpleFileVisitor<Path> {
 
+    private String partOfName;
+    private String partOfContent;
+    private int minSize;
+    private int maxSize;
+    private List<Path> foundFiles = new ArrayList<>();
+
+    public List<Path> getFoundFiles() {
+        return foundFiles;
+    }
+
+    public void setPartOfName(String partOfName) {
+        this.partOfName = partOfName;
+    }
+
+    public void setPartOfContent(String partOfContent) {
+        this.partOfContent = partOfContent;
+    }
+
+    public void setMinSize(int minSize) {
+        this.minSize = minSize;
+    }
+
+    public void setMaxSize(int maxSize) {
+        this.maxSize = maxSize;
+    }
+
     @Override
     public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
         byte[] content = Files.readAllBytes(file); // размер файла: content.length
+        if (partOfName != null && !file.getFileName().toString().contains(partOfName)) {
+            return FileVisitResult.CONTINUE;
+        }
 
+        if (partOfContent != null && !partOfContent.isEmpty()) {
+            String contentString = new String(content);
+            if (!contentString.contains(partOfContent)) return FileVisitResult.CONTINUE;
+        }
+        if ((maxSize > 0 && content.length > maxSize) || (minSize > 0 && content.length < minSize)) {
+            return FileVisitResult.CONTINUE;
+        }
+
+        foundFiles.add(file);
         return super.visitFile(file, attrs);
     }
 }
