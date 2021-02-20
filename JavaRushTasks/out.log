@@ -44545,3 +44545,294 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
 	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
 	... 13 more
+2021-02-18 21:32:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 21:33:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 21:34:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 21:35:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 21:36:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 21:37:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 21:38:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 21:39:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 21:40:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 21:41:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 21:42:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 21:43:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 21:44:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 21:45:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 21:46:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 21:47:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 21:48:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 21:49:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 21:50:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 21:51:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 21:52:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 21:53:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 21:54:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 21:55:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 21:56:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 21:57:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 21:58:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 21:59:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:00:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:01:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:02:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:03:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:04:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:05:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:06:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:07:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:08:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:09:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:10:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:11:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:12:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:13:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:14:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:15:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:16:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:17:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:18:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:19:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:20:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:21:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:22:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:23:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:24:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:25:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:26:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:27:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:28:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:29:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:30:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:31:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:32:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:33:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:34:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:35:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:36:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:37:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:38:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:39:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:40:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:41:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:42:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:43:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:44:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:45:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:46:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:47:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:48:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:49:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:50:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:51:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:52:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:53:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:54:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:55:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:56:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:57:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:58:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 22:59:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:00:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:01:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:02:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:03:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:04:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:05:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:06:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:07:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:08:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:09:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:10:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:11:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:12:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:13:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:14:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:15:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:16:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:17:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:18:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:19:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:20:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:21:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:22:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:23:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:24:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:25:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:26:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:27:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:28:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:29:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:30:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:31:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:32:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:33:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:34:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:35:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:36:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:37:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:38:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:39:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:40:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:41:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:42:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:43:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:44:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:45:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:46:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:47:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:48:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:49:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:50:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:51:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:52:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:53:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-18 23:54:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-20 20:37:44 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2021-02-20 20:37:44 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.46 ----------
+
+2021-02-20 20:37:45 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2021-02-20 20:37:45 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2021-02-20 20:37:45 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2021-02-20 20:37:45 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2021-02-20 20:37:45 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2021-02-20 20:38:01 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-02-20 20:38:01 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-02-20 20:38:02 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-02-20 20:38:06 INFO  AnalyticsService.run(84) - Error while sending analyticsMessage to log-stash
+org.apache.http.conn.HttpHostConnectException: Connect to test.javarush.ru:443 [test.javarush.ru/18.197.44.80] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:77)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2021-02-20 20:38:24 INFO  AnalyticsService.run(84) - Error while sending analyticsMessage to log-stash
+org.apache.http.conn.HttpHostConnectException: Connect to test.javarush.ru:443 [test.javarush.ru/18.197.44.80] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:77)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2021-02-20 20:38:45 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-20 20:39:45 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-20 20:40:45 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-20 20:41:45 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-20 20:42:45 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-20 20:43:45 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-20 20:44:34 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-02-20 20:44:45 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-20 20:45:03 INFO  AnalyticsService.run(84) - Error while sending analyticsMessage to log-stash
+org.apache.http.conn.HttpHostConnectException: Connect to test.javarush.ru:443 [test.javarush.ru/18.197.44.80] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:77)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2021-02-20 20:45:45 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-20 20:46:45 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-20 20:47:45 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-20 20:48:45 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-20 20:49:45 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-20 20:50:45 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-20 20:51:45 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-20 20:52:45 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-20 20:53:45 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-20 20:54:24 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-02-20 20:54:24 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-02-20 20:54:32 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-02-20 20:54:45 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-20 20:54:53 INFO  AnalyticsService.run(84) - Error while sending analyticsMessage to log-stash
+org.apache.http.conn.HttpHostConnectException: Connect to test.javarush.ru:443 [test.javarush.ru/18.197.44.80] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.homework.plugin.analytics.AnalyticsService$1.run(AnalyticsService.java:77)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:374)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2021-02-20 20:55:45 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-20 20:56:45 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-20 20:57:45 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-20 20:58:44 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-02-20 20:58:44 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-02-20 20:58:45 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-02-20 20:58:51 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-02-20 20:58:51 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
