@@ -13,10 +13,7 @@ Null Object Pattern
 */
 
 public class Solution {
-    public static void main(String[] args) {
-        System.out.println(Class.class);
-        Statement.execute();
-    }
+
     private FileData fileData;
 
     public Solution(String pathToFile) {
