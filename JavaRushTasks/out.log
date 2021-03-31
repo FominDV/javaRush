@@ -3138,3 +3138,34 @@ Caused by: java.net.ConnectException: Connection timed out: no further informati
 2021-03-15 23:58:39 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
 2021-03-15 23:58:39 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
 2021-03-15 23:59:04 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-16 21:06:38 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2021-03-16 21:06:38 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.47 ----------
+
+2021-03-16 21:06:38 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2021-03-16 21:06:39 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2021-03-16 21:06:39 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2021-03-16 21:06:39 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2021-03-16 21:06:39 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2021-03-16 21:06:54 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2021-03-16 21:06:55 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2021-03-16 21:25:24 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-03-31 20:24:24 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2021-03-31 20:24:24 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.47 ----------
+
+2021-03-31 20:24:24 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2021-03-31 20:24:24 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2021-03-31 20:24:24 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2021-03-31 20:24:24 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2021-03-31 20:24:24 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2021-03-31 20:25:24 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-31 20:26:24 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-31 20:27:24 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-31 20:28:24 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-31 20:29:06 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-03-31 20:29:06 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-03-31 20:29:12 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-03-31 20:29:12 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Geek_Brains/javaRush/javaRush/JavaRushTasks/4.JavaCollections/src/com/javarush/task/task32/task3205
+2021-03-31 20:29:24 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-03-31 20:29:28 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-03-31 20:29:28 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
