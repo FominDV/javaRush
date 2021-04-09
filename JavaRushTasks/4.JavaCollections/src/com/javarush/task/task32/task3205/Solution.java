@@ -24,6 +24,8 @@ public class Solution {
     }
 
     public static SomeInterfaceWithMethods getProxy() {
-        return null;
+        SomeInterfaceWithMethods someInterfaceWithMethods = new SomeInterfaceWithMethodsImpl();
+        CustomInvocationHandler customInvocationHandler = new CustomInvocationHandler(someInterfaceWithMethods);
+        return (SomeInterfaceWithMethods)Proxy.newProxyInstance(someInterfaceWithMethods.getClass().getClassLoader(), someInterfaceWithMethods.getClass().getInterfaces(),customInvocationHandler);
     }
 }
