@@ -1,5 +1,6 @@
 package com.javarush.task.task32.task3206;
 
+
 import java.lang.reflect.Proxy;
 
 /* 
@@ -24,5 +25,13 @@ public class Solution {
         boolean isSmall = proxy instanceof Small;
 
         System.out.format("%b %b %b\n", isItem, isBig, isSmall);
+    }
+
+    public <T extends Item> T getProxy(Class<T> clazz, Class<?>... interfaceClasses) {
+        ClassLoader classLoader = clazz.getClassLoader();
+        Class<?>[] interfaces = new Class[interfaceClasses.length+1];
+        System.arraycopy(interfaceClasses, 0, interfaces, 0, interfaceClasses.length);
+        interfaces[interfaces.length-1] = clazz;
+        return (T)Proxy.newProxyInstance(classLoader, interfaces, new ItemInvocationHandler());
     }
 }
