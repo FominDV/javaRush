@@ -5256,3 +5256,28 @@ java.net.UnknownHostException: javarush.ru
 2021-04-23 18:55:51 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
 2021-04-23 18:55:51 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
 2021-04-23 18:55:52 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-04-23 18:56:37 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-23 18:57:26 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2021-04-23 18:57:26 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-04-23 18:57:27 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-04-23 18:57:27 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2021-04-24 21:39:12 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2021-04-24 21:39:12 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.47 ----------
+
+2021-04-24 21:39:12 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2021-04-24 21:39:12 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2021-04-24 21:39:12 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2021-04-24 21:39:12 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2021-04-24 21:39:12 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2021-04-24 21:39:23 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-04-24 21:39:23 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-04-24 21:39:26 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-04-24 21:40:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 21:40:51 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-04-24 21:40:52 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-04-24 21:40:53 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-04-24 21:40:53 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-04-24 21:40:55 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-04-24 21:40:56 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-04-24 21:40:56 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
