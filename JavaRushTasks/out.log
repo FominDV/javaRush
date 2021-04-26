@@ -5281,3 +5281,132 @@ java.net.UnknownHostException: javarush.ru
 2021-04-24 21:40:55 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
 2021-04-24 21:40:56 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
 2021-04-24 21:40:56 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-04-24 21:41:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 21:42:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 21:43:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 21:44:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 21:45:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 21:46:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 21:47:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 21:48:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 21:49:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 21:50:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 21:51:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 21:52:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 21:53:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 21:54:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 21:55:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 21:56:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 21:57:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 21:58:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 21:59:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:00:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:01:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:02:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:03:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:04:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:05:13 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:06:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:07:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:08:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:09:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:10:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:11:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:12:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:13:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:14:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:15:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:16:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:17:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:18:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:19:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:20:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:21:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:22:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:23:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:24:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:25:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:26:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:27:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:28:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:29:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:30:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:31:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:32:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:33:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:34:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:35:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:36:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:37:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:38:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:39:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:40:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:41:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:42:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:43:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:44:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:45:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:46:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:47:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:48:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:49:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:50:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:51:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:52:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:53:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:54:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:55:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:56:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:57:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:58:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 22:59:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 23:00:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 23:01:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 23:02:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 23:03:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 23:04:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 23:05:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 23:06:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 23:07:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 23:08:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-24 23:09:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-25 22:37:12 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2021-04-25 22:37:12 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.47 ----------
+
+2021-04-25 22:37:12 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2021-04-25 22:37:12 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2021-04-25 22:37:12 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2021-04-25 22:37:12 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2021-04-25 22:37:12 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2021-04-25 22:37:12 INFO  AnalyticsService.run(81) - Error while sending analyticsMessage to log-stash : error in server. Status code :429
+2021-04-25 22:38:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-25 22:39:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-25 22:40:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-25 22:41:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-25 22:42:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-25 22:43:12 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-25 22:43:22 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2021-04-25 22:43:22 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2021-04-25 22:43:23 INFO  AnalyticsService.run(81) - Error while sending analyticsMessage to log-stash : error in server. Status code :429
+2021-04-26 18:46:01 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2021-04-26 18:46:01 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.47 ----------
+
+2021-04-26 18:46:01 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2021-04-26 18:46:01 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2021-04-26 18:46:01 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2021-04-26 18:46:02 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2021-04-26 18:46:02 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2021-04-26 18:46:03 INFO  AnalyticsService.run(81) - Error while sending analyticsMessage to log-stash : error in server. Status code :429
+2021-04-26 18:47:02 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-26 18:48:02 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-26 18:49:02 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-04-26 18:49:03 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-04-26 18:49:04 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-04-26 18:49:06 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-04-26 18:49:07 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-04-26 18:49:07 INFO  AnalyticsService.run(81) - Error while sending analyticsMessage to log-stash : error in server. Status code :429
+2021-04-26 18:49:09 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-04-26 18:49:09 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-04-26 18:49:12 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-04-26 18:49:12 INFO  AnalyticsService.run(81) - Error while sending analyticsMessage to log-stash : error in server. Status code :429
