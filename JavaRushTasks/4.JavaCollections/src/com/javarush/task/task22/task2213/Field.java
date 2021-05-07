@@ -20,8 +20,24 @@ public class Field {
         return matrix;
     }
 
+    public void print() {
+
+    }
+
+    public void removeFullLines() {
+
+    }
+
+    public Integer getValue(int x, int y) {
+        return null;
+    }
+
+    void setValue(int x, int y, int value) {
+        
+    }
+
     private int width;
-   private int height;
-   private int[][] matrix;
+    private int height;
+    private int[][] matrix;
 
 }
