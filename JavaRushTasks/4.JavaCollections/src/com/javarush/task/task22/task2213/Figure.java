@@ -25,7 +25,6 @@ public class Figure {
     public void downMaximum(){}
 
     public boolean isCurrentPositionAvailable(){return true;}
-    
     public void landed(){}
 
     public int getX() {
