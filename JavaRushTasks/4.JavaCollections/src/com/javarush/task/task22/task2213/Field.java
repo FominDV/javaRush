@@ -110,5 +110,28 @@ public class Field {
         //Копируем все неполные линии в список.
         //Добавляем недостающие строки в начало списка.
         //Преобразуем список обратно в матрицу
+        for (int i = 0; i < matrix.length; i++) {
+            if (ifFullLine(matrix[i])) {
+                for (int j = i; j > 0; j--) {
+                    matrix[j] = matrix[j - 1];
+                }
+                fillZero(matrix[0]);
+            }
+        }
+    }
+
+    private boolean ifFullLine(int[] line) {
+        for (int value : line) {
+            if (value == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    private void fillZero(int[] line) {
+        for (int i = 0; i < line.length; i++) {
+            line[i] = 0;
+        }
     }
 }
