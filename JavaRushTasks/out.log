@@ -11449,3 +11449,24 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: -1
 2021-06-03 01:03:02 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
 2021-06-03 01:04:02 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
 2021-06-03 01:05:02 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-06-08 13:38:23 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2021-06-08 13:38:23 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.49 ----------
+
+2021-06-08 13:38:23 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2021-06-08 13:38:23 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2021-06-08 13:38:23 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2021-06-08 13:38:23 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2021-06-08 13:38:23 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2021-06-08 13:38:26 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-06-08 13:38:27 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-06-08 13:38:28 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-06-08 13:39:23 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-06-08 13:40:23 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-06-08 13:41:23 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-06-08 13:42:23 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-06-08 13:43:23 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-06-08 13:44:23 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-06-08 13:45:22 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2021-06-08 13:45:22 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-06-08 13:45:22 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
