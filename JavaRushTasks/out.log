@@ -12036,3 +12036,49 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: -1
 2021-06-22 16:41:26 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
 2021-06-22 16:41:26 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
 2021-06-22 16:41:27 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2021-07-03 14:11:33 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2021-07-03 14:11:33 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.50 ----------
+
+2021-07-03 14:11:33 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2021-07-03 14:11:33 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2021-07-03 14:11:33 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2021-07-03 14:11:33 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2021-07-03 14:11:33 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2021-07-03 14:12:33 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-07-03 14:13:33 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-07-03 14:13:51 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-07-03 14:13:51 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2021-07-03 14:13:52 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2021-07-03 14:14:33 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-07-03 14:15:33 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-07-03 14:16:33 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-07-03 14:17:33 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-07-03 14:18:33 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-07-03 14:19:33 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-07-03 14:20:33 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-07-03 14:21:33 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-07-03 14:22:33 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-07-03 14:23:33 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-07-03 14:24:33 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-07-03 14:25:33 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-07-03 14:26:33 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-07-03 14:27:33 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-07-03 14:28:33 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-07-03 14:29:33 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-07-03 14:30:33 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-07-03 14:31:33 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-07-03 14:32:33 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-07-03 14:33:33 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-07-03 14:34:33 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-07-03 14:35:33 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-07-03 14:36:33 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-07-03 14:37:33 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-07-03 14:38:33 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-07-03 14:39:33 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-07-03 14:40:33 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-07-03 14:41:33 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-07-03 14:42:30 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2021-07-03 14:42:30 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2021-07-03 14:42:33 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-07-03 14:42:34 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2021-07-03 14:42:34 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
