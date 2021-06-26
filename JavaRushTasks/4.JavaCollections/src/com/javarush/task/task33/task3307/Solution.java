@@ -20,7 +20,9 @@ public class Solution {
     }
 
     public static <T> T convertFromXmlToNormal(String xmlData, Class<T> clazz) throws IOException, JAXBException {
-        return null;
+        JAXBContext context = JAXBContext.newInstance(clazz);
+        Unmarshaller unmarshaller = context.createUnmarshaller();
+        return (T) unmarshaller.unmarshal(new StringReader(xmlData));
     }
 
     @XmlType(name = "cat")
