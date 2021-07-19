@@ -2,6 +2,7 @@ package com.javarush.task.task25.task2515;
 
 import java.awt.event.KeyEvent;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -106,6 +107,9 @@ public class Space {
      */
     public void createUfo() {
         //тут нужно создать новый НЛО.
+        if (ufos.isEmpty()) {
+            ufos.add(new Ufo(width / 2, 0));
+        }
     }
 
     /**
@@ -115,6 +119,15 @@ public class Space {
      */
     public void checkBombs() {
         //тут нужно проверить все возможные столкновения для каждой бомбы.
+        for (Bomb bomb : bombs) {
+            if (bomb.y > height) {
+                bomb.die();
+            }
+            if (bomb.isIntersect(ship)) {
+                bomb.die();
+                ship.die();
+            }
+        }
     }
 
     /**
@@ -124,6 +137,17 @@ public class Space {
      */
     public void checkRockets() {
         //тут нужно проверить все возможные столкновения для каждой ракеты.
+        for (Rocket rocket : rockets) {
+            if (rocket.y < 0) {
+                rocket.die();
+            }
+            for (Ufo ufo : ufos) {
+                if (rocket.isIntersect(ufo)) {
+                    rocket.die();
+                    ufo.die();
+                }
+            }
+        }
     }
 
     /**
@@ -131,6 +155,21 @@ public class Space {
      */
     public void removeDead() {
         //тут нужно удалить все умершие объекты из списков (кроме космического корабля)
+
+           for (BaseObject object : new ArrayList<BaseObject>(bombs)) {
+               if (!object.isAlive())
+                   bombs.remove(object);
+           }
+
+           for (BaseObject object : new ArrayList<BaseObject>(rockets)) {
+               if (!object.isAlive())
+                   rockets.remove(object);
+           }
+
+           for (BaseObject object : new ArrayList<BaseObject>(ufos)) {
+               if (!object.isAlive())
+                   ufos.remove(object);
+           }
     }
 
     /**
