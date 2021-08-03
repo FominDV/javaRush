@@ -18208,3 +18208,7 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: -1
 2021-08-02 19:28:33 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
 2021-08-02 19:28:33 INFO  ApacheHttpClient.startGA(36) - GAService started.
 2021-08-02 19:28:33 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2021-08-02 19:29:33 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2021-08-02 19:30:28 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2021-08-02 19:30:28 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
