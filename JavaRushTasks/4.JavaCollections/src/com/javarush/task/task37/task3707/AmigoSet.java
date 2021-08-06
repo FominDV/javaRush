@@ -8,6 +8,30 @@ public class AmigoSet<E> extends AbstractSet<E> implements Cloneable, Serializab
     private static final Object PRESENT = new Object();
     private transient HashMap<E, Object> map;
 
+    @Override
+    public boolean contains(Object o) {
+        return map.keySet().contains(o);
+    }
+
+    @Override
+    public void clear() {
+        map.clear();
+    }
+
+    @Override
+    public boolean isEmpty() {
+        return map.isEmpty();
+    }
+
+    @Override
+    public boolean remove(Object o) {
+        if(this.contains(o)){
+            map.remove(o);
+            return true;
+        }
+        return false;
+    }
+
     public AmigoSet() {
         map = new HashMap<>();
     }
@@ -19,12 +43,12 @@ public class AmigoSet<E> extends AbstractSet<E> implements Cloneable, Serializab
 
     @Override
     public Iterator iterator() {
-        return null;
+        return map.keySet().iterator();
     }
 
     @Override
     public int size() {
-        return 0;
+        return map.size();
     }
 
     @Override
