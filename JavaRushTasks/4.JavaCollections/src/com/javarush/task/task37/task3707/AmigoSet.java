@@ -9,6 +9,18 @@ public class AmigoSet<E> extends AbstractSet<E> implements Cloneable, Serializab
     private transient HashMap<E, Object> map;
 
     @Override
+    public AmigoSet<E> clone() {
+          try {
+            AmigoSet<E> newSet = (AmigoSet<E>) super.clone();
+            newSet.map = (HashMap<E, Object>) map.clone();
+            return newSet;
+        } catch (Exception e) {
+            throw new InternalError();
+        }
+
+    }
+
+    @Override
     public boolean contains(Object o) {
         return map.keySet().contains(o);
     }
