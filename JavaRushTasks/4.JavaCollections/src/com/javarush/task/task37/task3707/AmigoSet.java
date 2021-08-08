@@ -69,6 +69,7 @@ public class AmigoSet<E> extends AbstractSet<E> implements Cloneable, Serializab
     }
 
     private void writeObject(ObjectOutputStream s) throws java.io.IOException {
+
         // Write out any hidden serialization magic
         s.defaultWriteObject();
 
